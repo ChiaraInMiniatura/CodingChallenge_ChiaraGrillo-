@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-color: rgba(14, 13, 13, 0.548);
+    border-radius: 15px;
+    width: 70%;
+    height: 70%; 
+    margin: auto;
+    margin-top: 25px;
+    padding: 5%;
+}
+header{
+    color: rgb(0, 221, 0);
+    text-align: center;
+    line-height: 80%;
+}
+header > img{
+    width: 25%;
+    height: 25%;
+}
+nav{
+    background-color: rgb(0, 221, 0);    
+    padding: 1%;
+    text-align: center;
+}
+main{
+    color: white;
+}
+main h3{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 90%;
+} 
+main p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 80%;  
+}
+.carica{
+    border-color: transparent;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.prima{
+    background-color:rgb(233, 141, 4);
+    width: 300px;   
+}
+.seconda{
+    background-color:rgb(20, 207, 20);
+    width: 500px;
+}
+.terza{
+    background-color:rgb(236, 59, 74);
+    width: 100px;
+}
